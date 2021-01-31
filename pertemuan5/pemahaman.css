@@ -1,3 +1,13 @@
+p.center {
+  text-align: justify;
+  color: black;
+}
+
+p.center1 {
+  text-align: justify;
+  color: blue;
+}
+
 #press_botton {
   color: #f00;
   background: #00F;
