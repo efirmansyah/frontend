@@ -1,0 +1,28 @@
+  .tombol {
+    color: #f00;
+    background: #00F;
+  }
+#tombol-2{
+  color: #fff;
+  background: #F20;
+}
+h2 {
+  color: #0f0;
+}
+
+.tombol-login {
+  background: #F40;
+  padding: 30px 40px 50px 60px;
+  margin: 30px;
+  border: 2px solid #F00;
+  border-radius: 20px;
+
+}
+
+.nama {
+  border: 2px solid #F00;
+  border-radius: 10px;
+  color: #F00;
+  background: blue;
+
+}
