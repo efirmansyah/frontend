@@ -1,0 +1,20 @@
+JAVASCRIPT
+variable (wadah untuk nyimpen data):
+- let
+- var
+- const
+
+tipe data:
+- string: ditandai dengan double quote
+- number (int, float, double)
+- boolean
+- object
+- array (tipe data banyak)
+
+pemanggilan: console.log(nama_variabel);
+
+dom = struktur
+node = element
+
+document (dom) = menampilkan seluruh struktur di script
+document.getElementById("namaId")

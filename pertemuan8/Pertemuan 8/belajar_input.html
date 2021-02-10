@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+</head>
+<body>
+    <ol id="list-item"></ol>
+
+    <script>
+        let menuSatu = "<li>" + prompt("Masukkan List Pertama") + "</li>";
+        let menuDua = "<li>" + prompt("Masukkan List Kedua") + "</li>";
+
+        let menuAkhir = menuSatu + menuDua;
+
+        document.getElementById("list-item").innerHTML = menuAkhir;
+    </script>
+</body>
+</html>
