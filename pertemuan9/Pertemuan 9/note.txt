@@ -1,0 +1,12 @@
+Javascript method ditandai dengan dot(.)
+
+return:
+set something > document.getElementById("").innerHTML=name;
+get something > document.getElementById("").innerHTML;
+
+method:
+innerHTML
+value: untuk tag yg gaada tutup
+
+trigger:
+onclick

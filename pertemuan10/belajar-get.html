@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Belajar Get</title>
+  </head>
+
+  <body>
+
+<div id="testing"> Asep Surasep
+
+</div>
+
+<input type="text" id="username">
+<button type="button" onclick="ambil()">Take it</button>
+
+<script>
+
+  function ambil(){
+
+    let isiValue = document.getElementById("username").value;
+    console.log(isiValue);
+  }
+
+  let isiKonten = document.getElementById("testing").innerHTML;
+  console.log(isiKonten);
+  </script>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+</head>
+<body>
+    <input type="text" id="namaDepan" placeholder="Nama Depan">
+    <input type="text" id="namaBelakang" placeholder="Nama Belakang">
+    <button type="button" onclick="tampilNama();">KLIK</button>
+    <h1 id="namaLengkap"></h1>
+
+    <hr>
+
+    <h3>Kalkulator</h3>
+    <input type="number" name="" id="angka1">
+    <input type="number" name="" id="angka2">
+
+    <button type="button" onclick="tampilAngka();">-</button>
+    <button type="button" onclick="tampilKali();">x</button>
+    <button type="button" onclick="tampilBagi();">/</button>
+
+    <h1 id="hasil"></h1>
+
+    <script>
+        function tampilNama(){
+            let namaSatu = document.getElementById("namaDepan").value;
+            let namaDua = document.getElementById("namaBelakang").value;
+
+            let gabungNama = namaSatu + " " + namaDua;
+            document.getElementById("namaLengkap").innerHTML = gabungNama;
+        }
+
+        function tampilAngka() {
+            let angka1 = document.getElementById("angka1").value;
+            let angka2 = document.getElementById("angka2").value;
+
+            let pengurangan = angka1 - angka2;
+            document.getElementById("hasil").innerHTML = pengurangan;
+        }
+
+        function tampilKali() {
+            let angka1 = document.getElementById("angka1").value;
+            let angka2 = document.getElementById("angka2").value;
+
+            let kali = angka1 * angka2;
+            document.getElementById("hasil").innerHTML = kali;
+        }
+        
+        function tampilBagi() {
+            let angka1 = document.getElementById("angka1").value;
+            let angka2 = document.getElementById("angka2").value;
+
+            let bagi = angka1 / angka2;
+            document.getElementById("hasil").innerHTML = bagi;
+        }
+    </script>
+</body>
+</html>

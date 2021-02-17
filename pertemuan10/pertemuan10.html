@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Belajar Append</title>
+  </head>
+  <body>
+    <ul id ="list">
+
+    </ul>
+
+    <button type="button" onclick="ubah()">Klik</button>
+
+    <script>
+      function ubah(){
+        let ghostElement = document.createElement("li");
+        let ghostContent = document.createTextNode("Asep");
+        ghostElement.appendChild(ghostContent);
+
+        document.getElementById("list").appendChild(ghostElement);
+
+
+        console.log(ghostElement);
+      }
+      </script>
+
+  </body>
+</html>

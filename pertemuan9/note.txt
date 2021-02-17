@@ -1,0 +1,61 @@
+Java Script methode
+
+
+
+  let nama = document.getElementById("nama").value;
+
+
+        let mynote = document.getElementById("mynote").innerHTML;
+        document.getElementById("judul").innerHTML = mynote;
+
+document.GetElementByID("").innerHTML = ""; untuk tag yg punya tutup (contoh <h1> Test</h1>)
+
+
+
+<script>
+   function tambah() {
+
+     let nama = document.getElementById("nama").value;
+     alert(nama);
+   }
+
+
+
+</script>
+
+
+
+
+document.GetElementByID("").value = ""; untuk tag yg tdk punya tutup
+
+
+return -set sesuatu dan dapet sesuatu
+
+Triger
+
+- onclick 
+
+Function
+- 
+
+
+klo ngambil data menggunakan Variable ( let NamaVariable.document.GetElementByID("").InnerHTML = NamaVariable; )
+
+klo ngisi/input data menggunakan Variable ( let NamaVariable.document.GetElementByID("").value = NamaVariable; )
+
+
+bit.ly/diloxunlaphp
+
+
+library genesis
+
+
+
+
+
+
+
+
+
+
+
