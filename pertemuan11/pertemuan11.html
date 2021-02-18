@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Belajar JQuery</title>
+  </head>
+  <body>
+    <h1 id="judul"></h1>
+
+
+    <button type="button" id="click"> CLICK ME</button>
+    <br>
+    <br>
+    <br>
+
+    <ul id="list_siswa"></ul>
+    <input type="text" id="nama">
+    <button type="button" id="tambah"> TAMBAH </button>
+
+
+    <button type="button" id="hide"> HIDE </button>
+    <button type="button" id="show"> SHOW </button>
+
+    <button type="button" id="display"> DISPLAY </button>
+    <img src="/home/it/front_end_web/pertemuan11/download.jpeg" id="gambar">
+    <script src="jquery.js">
+    </script>
+
+
+      <script type="text/javascript">
+        $('#tambah').click(function(){
+        let nama = '<li>' + $('#nama').val() + '</li>';
+        $('#list_siswa').append(nama);
+        });
+
+        $('#hide').click(function(){
+        $('#gambar').hide();
+        });
+
+        $('#show').click(function(){
+        $('#gambar').show();
+        });
+
+        $('#display').click(function(){
+        $('#gambar').toggle();
+        });
+
+
+        //$('#tambah').click("ASEP SURASEP");
+        //$('#judul').html("ASEP SURASEP");
+        //$('#click').click(function(){
+        //$('#judul').html("ASEP SURASEP");
+        //});
+      </script>
+  </body>
+</html>
